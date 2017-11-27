@@ -6,17 +6,38 @@
 // Ecrire une fonction 'hello' qui affiche dans la console "Hello World!"
 
 function hello() {
-	// write your code HERE
-};
+	console.log("Hello World!");
+}
+
+function addition(a,b){
+	return a + b;
+}
+
+function soustraction(a,b){
+	return a - b;
+}
+
+function multiplication(a,b){
+	return a * b;
+}
+
+function division(a, b){
+	return a / b;
+}
+
+function concatenation(str1, str2){
+	return str1.str2;	
+}
+
+function moyenne(a1, a2, a3){
+	return (a1, a2, a3) / 3;
+}
+
 
 // ----
 // écrire des fonctions suivante:
-// addition(a, b)
-// soustraction(a, b)
-// multiplication(a, b)
-// division(a, b)
-// concatenation(str1, str2)
-// moyenne(a1, a2, a3)
+
+
 
 // Chaque fonction devra effectuer l'opération correspondant à son nom, et renvoyer le résultat. 
 // Celui-ci sera stocké dans une variable, qui sera ensuite affichée dans la console
